@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#subContent_right{
+	width:730px;
+	float:right;
+	border-radius:7px;
+	box-shadow:3px 3px 5px #ccc;	
+	}
+#subContent_right_title{
+	width:100%;
+	font-size:12px;
+	padding:10px 0 10px;
+	border-bottom:1px solid #ddd;
+	}
+
+#subContent_right_content{
+	padding:20px 10px 30px;
+	width:100%-20px;
+	
+	}
+#subContent_right_content table tr{
+	line-height:40px;
+	}
+#subContent_right_content table tr td{
+	padding:0 15px 0 5px;
+	}
+#subContent_right_content table input{
+	border:1px solid #ccc;
+	line-height:30px;
+	width:220px;
+	height:30px;
+	border-radius:5px;
+	padding:0 5px 0 ;
+	}
+#subContent_right_content table textarea{
+	margin-top:10px;	
+	border:1px solid #ccc;
+	height:200px;
+	width:400px;
+	resize:none;
+	border-radius:5px;
+	padding:5px;
+	}
+#sub{
+	height:30px;
+	width:250px;
+	color:#fff;
+	line-height:30px;
+	background: -webkit-linear-gradient(#7f8ee3, #1e56af); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#7f8ee3, #1e56af); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#7f8ee3, #1e56af); /* Firefox 3.6 - 15 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7f8ee3', endColorstr='#1e56af', GradientType='0'); /* IE*/
+    background: linear-gradient(#7f8ee3, #1e56af); /* 标准的语法（必须放在最后） */
+	}
+#sub:active{
+	background: -webkit-linear-gradient(#1e56af, #7f8ee3); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#1e56af, #7f8ee3); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#1e56af, #7f8ee3); /* Firefox 3.6 - 15 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e56af', endColorstr='#7f8ee3', GradientType='0'); /* IE*/
+    background: linear-gradient(#1e56af, #7f8ee3); /* 标准的语法（必须放在最后） *
+	}

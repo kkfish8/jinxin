@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.middle{
+
+	width:1000px;
+	min-height:430px;
+	border:1px solid #ccc;
+	background:#f0f0f0;
+	margin:10px auto;
+	overflow:auto;
+	padding:10px;
+	border-radius:5px;
+	font-family:"Microsoft YaHei UI";
+	}
+.banner{
+
+	height:200px;
+	min-height:200px;
+	width:400px;
+	float:left;
+	margin:20px 0 0 40px;
+	border-radius:5px;
+	}
+.middle_nav{
+
+	height:240px;
+	width:460px;
+	float:right;
+	margin:10px 40px 0 0;
+	}
+.middle_one{
+	min-height:250px;}
+.nav_tab li{
+	color:#222;
+	float:left;
+	width:18%;
+	font-size:16px;
+	height:30px;
+	line-height:30px;
+	padding:0 10px 0;
+	text-align:center;
+	border-bottom:3px solid #f0f0f0;
+	}
+.nav_tab li:hover{
+	cursor:pointer;
+	}
+.nav_tab li.active{
+	color:#3a416e;	
+	border-bottom:3px solid #3a416e;
+	}
+
+.nav_content li{
+	color:#888;
+	float:left;
+	height:30px;
+	line-height:30px;
+	border-top:1px solid #ccc;
+	width:100%;
+	padding:3px 0 3px;
+	}
+.nav_content li a{
+	color:#333;
+}
+.nav_content li a:hover{
+	color:#2B8ACA;
+	}
+.nav_li{
+	font-size:14px;
+	}
+	
+.nav_li a{
+		display:block;
+		height:30px;
+		width:70%;
+		float:left;
+		overflow:hidden;
+	}
+.nav_li p{
+	height:30px;
+
+	float:right;
+	
+}	
+.nav_time{
+	font-size:12px;
+	}
+
+#nav_content ul{
+	display:none;
+	}
+.newExperts{
+	height:30%;
+	width:95%;
+	margin:0 auto;
+	}
+.newExperts_title{
+	height:50px; 
+	width:100%;
+	border-bottom:1px solid #ccc;
+	}
+.newExperts_title h3{
+	font-size:20px;
+	font-weight:500;
+	line-height:50px;
+	padding:0px 0 5px 30px;
+	}
+
+.newExperts_left{
+	height:18%;
+	float:left;
+	width:100%;
+	}
+.newExperts_left ul{
+	padding-top:15px;
+	margin-left:20px;
+	text-align:center;
+	list-style-type:none;	
+	}
+.newExperts_left ul img{
+	height:30px;
+	width:30px;
+	float:left;
+	border:none;
+	margin-left:10px;
+	margin-right:10px;
+ 	margin-top:10px;
+	}
+.newExperts_left ul li{
+	float:left;	
+	height:56px;
+	border:1px solid #4c5488;
+	color:#fff;
+	background:#4c5488;
+	border-radius:8px;
+	font-size:15px;
+	width:14%;
+	}
+.newExperts_left ul li span{
+	line-height:56px;
+	height:56px;
+	cursor:default;
+	text-align:center;
+	}
+.middle_ico{
+	width:920px;
+	margin:10px auto;
+	overflow:hidden;
+	}
+.fr{
+	float:right;
+	}
+	
+.middle_ico img{
+	height:60px;
+	width:200px; 
+	}
+
+/*主页专家风采轮播*/
+
+.lunbo{width:100%;height:220px;position:relative;overflow:hidden}
+#div1{ width:100%;height:100%;position:absolute;left:0px}
+#div2{ position:absolute;left:920px;width:100%;height:100% }
+#div3{ position:absolute;left:1840px;width:100%;height:100% }
+.lunbo_div{ width:30%;height:190px;margin:20px 15px;background:#fff;
+			float:left;border-radius:5px;box-shadow:5px 5px 10px #666;overflow:hidden; }
+.lunbo_div img{ margin:5px 3px;width:270px;height:180px }

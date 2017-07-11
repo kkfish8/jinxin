@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.mien{
+	width:700px;
+	overflow:hidden;
+	margin:10px auto 10px;
+	background:#efefef;	
+	border-radius:7px;
+	font-family:"Microsoft YaHei UI";
+	min-height:400px;
+}
+.mien_title{
+	height:40px;
+	width:100%;
+	letter-spacing:10px;
+	background:#4269a4;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-size:17px;
+	font-weight:500;
+	}
+.mien_info{
+	height:;
+	width:700px;
+	margin:15px 25px 10px 25px;
+	float:left;
+	border-bottom:1px solid #ccc;
+
+}
+.mien_info_img{
+	height:240px;
+	width:200px;
+	float:left;
+	margin:0px 0px 20px 0;
+	border-radius:5px ;
+	box-shadow:2px 3px 3px #ccc;
+	}
+
+.info{
+
+	float:left;
+	color:#333;
+	width:430px;
+	font-size:14px;
+	border-radius:0 0 5px 5px;
+	margin:10px;
+	
+	}
+.info table tr{
+	line-height:25px;
+	}
+.info table td{
+	font-size:13px;
+	min-width:80px;
+	text-align:left;
+	max-width:400px;
+	}
+#subContent_right_content_num {
+	list-style-type:none;
+	clear:both;
+	font-size:12px;
+	width:500px;
+	margin:10px auto;
+	height:40px;
+	}
+#subContent_right_content_num li{
+	float:left;
+	}
+#subContent_right_content_num li a{
+	height:100%;
+	width:100%;
+	color:inherit;
+	border:1px solid #3a416e;
+	line-height:30px;
+	padding:5px 15px 5px;
+	margin:0 10px 0 0;
+	}
+#subContent_right_content_num li a:hover{
+	color:#fff;
+	background:#3a416e;
+	
+	}

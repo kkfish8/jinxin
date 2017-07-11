@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#subContent_right{
+	width:730px;
+	border-radius:7px;
+	box-shadow:3px 3px 3px #ccc;
+	float:right;
+	
+	}
+#subContent_right_title{
+	width:100%;
+	
+	border-bottom:1px solid #ddd;
+	}
+#subContent_right_title h2{
+	color:#333;
+	text-align:center;
+	padding:20px 0px 15px;
+	}
+#subContent_right_title_info{
+	font-size:12px;
+	text-align:center;
+	padding:0px 0px 5px;
+	color:#555;
+	}
+#subContent_right_content{
+	padding:30px 10px;
+	letter-spacing:1px;
+	min-height:400px;
+	display:block;
+	}
+#subContent_right_content span{
+	padding:0 20px 0;
+	text-align:left;
+	min-height:400px;
+	line-height:150%;
+	font-size:15px;
+	}	

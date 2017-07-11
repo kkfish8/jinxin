@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{ 
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	}
+html,body{
+	height:100%;
+	width:100%;
+	min-width:1000px;
+	background:#fdfdfd;
+	}
+a{ 
+	color:inherit;
+	text-decoration:none;
+	}
+a:hover{
+	color:#2B8ACA;
+	}
+.top{
+	width:100%;
+	height:170px;
+	background:#4c5488;
+	position:relative;
+	}
+.logo{
+	position:absolute;
+	top:40px;
+
+	}
+.topImg{
+	height:140px;
+	
+	}
+
+.top_img{
+	width:1000px;
+	height:100%;
+	margin:0 auto ;
+	}
+.top_nav{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background:#3a416e;
+	}
+.top_nav ul{
+	width:1000px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	}
+
+.top_login{
+	position:absolute;
+	top:0;
+	right:0;
+
+	}
+.top_nav ul li{
+	float:left;
+	width:100px;
+	color:#fff;
+	line-height:30px;
+	text-align:center;
+	height:30px;
+	border-radius:3px 3px 0 0;
+	font-size:13px;
+	}
+.top_nav ul li:hover{
+	background:#2B8ACA;
+
+	}
+.top_nav ul li a{
+	color:inherit;
+	}
